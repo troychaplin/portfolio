@@ -1,6 +1,5 @@
-{
-  "extends": ["@commitlint/config-conventional"],
-  "rules": {
+export default {
+  extends: ['@commitlint/config-conventional'], "rules": {
     "type-enum": [
       2,
       "always",
@@ -8,6 +7,7 @@
         "add",
         "change",
         "deprecate",
+        "doc",
         "fix",
         "finish",
         "refactor",
@@ -19,4 +19,4 @@
       ]
     ]
   }
-}
+};
