@@ -7,5 +7,9 @@
 }
 
 body {
-  @apply w-full p-5 md:p-10;
+  @apply w-full p-6 md:p-10;
+}
+
+article + article {
+  @apply mt-6 md:mt-10;
 }
