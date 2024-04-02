@@ -13,3 +13,7 @@ body {
 article + article {
   @apply mt-6 md:mt-10;
 }
+
+.ui-columns {
+  @apply mt-2 md:mt-4;
+}

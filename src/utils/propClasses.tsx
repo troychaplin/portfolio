@@ -8,7 +8,7 @@ export const maxWidthProp = {
   full: "max-w-full",
 };
 
-export const gridColumnsProp = {
+export const gridColsProp = {
   "1": "",
   "2": "md:grid-cols-2",
   "3": "md:grid-cols-3",
@@ -17,7 +17,7 @@ export const gridColumnsProp = {
   "2/3": "lg:grid-cols-3 lg:[&>*:first-child]:col-span-2",
 };
 
-export const gridSpacingProp = {
+export const gridSpaceProp = {
   "0": "gap-0",
   "5": "gap-2.5 md:gap-5",
   "10": "gap-5 md:gap-10",

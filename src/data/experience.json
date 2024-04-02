@@ -1,0 +1,72 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "title": "Senior Web Develop",
+      "employer": "Web Services, Carleton University",
+      "date": "August 2022 — Present",
+      "accomplishments": [
+        "Designed a React component library named <a href='https://cuweb.github.io/rds'>RDS</a> and led all <a href='https://github.com/cuweb/rds'>development</a>",
+        "Planned and led development of a Gutenberg powered WordPress cofiguration to power over 600 sites",
+        "Reviewed code, gave feedback to other developers and led code sessions to share knowledge and key learnings"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Acting Manager",
+      "employer": "Web Services, Carleton University",
+      "date": "September 2023 — March 2024",
+      "accomplishments": [
+        "Learned to manage a project and plan sprints for a team of 5 developers (6 if you include me) and three comms staff",
+        "Developped learning plans with developers and provided time during active sprints to level up",
+        "Initiated collaboration with departments and key stakeholders in the web brand and the inception of RDS"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lead Designer & Developer",
+      "employer": "International Documents Canada",
+      "date": "May 2015 — Present",
+      "accomplishments": [
+        "Led design and development of several iterations of the <a href='https://www.idocscanada.ca/'>corporate web site</a>, currently being refreshed for 2024",
+        "Collaborate with the CEO to strategize new initiatives for web site features and functionality and other marketing needs",
+        "Assist in configuring a customized Jira Cloud solution to replace an existing Laravel cient services application"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Research Management Systems Jira Specialist",
+      "employer": "Technical Services, Carleton University",
+      "date": "September 2020 — August 2022",
+      "accomplishments": [
+        "Conceptualized a custom Jira implementation to manage grants and fund management for researchers and groups on campus",
+        "Developed various Jira templates and configuration including workflows, automation, approval process and more",
+        "Developed connections to Jira Assets and Custom Fields that sync data from external APIs"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Web Developer",
+      "employer": "Web Serives, Carleton University",
+      "date": "November 2010 — September 2020"
+    },
+    {
+      "id": 6,
+      "title": "Web Developer",
+      "employer": "Sprott School of Business, Carleton University",
+      "date": "October 2009 — November 2010"
+    },
+    {
+      "id": 7,
+      "title": "Web Developer",
+      "employer": "Academic Computing, Carleton University",
+      "date": "January 2009 — October 2009"
+    },
+    {
+      "id": 8,
+      "title": "Graphic Designer and Web Developer",
+      "employer": "Universities Canada",
+      "date": "August 2001 — December 2009"
+    }
+  ]
+}
