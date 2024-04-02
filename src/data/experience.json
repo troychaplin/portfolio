@@ -1,0 +1,34 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "title": "Senior Web Develop",
+      "employer": "Web Services, Carleton University",
+      "accomplishments": [
+        "Won industry award",
+        "Surpassed readership goals",
+        "Featured in a major publication"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Senior Web Develop",
+      "employer": "Web Services, Carleton University",
+      "accomplishments": [
+        "Won industry award",
+        "Surpassed readership goals",
+        "Featured in a major publication"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Senior Web Develop",
+      "employer": "Web Services, Carleton University",
+      "accomplishments": [
+        "Won industry award",
+        "Surpassed readership goals",
+        "Featured in a major publication"
+      ]
+    }
+  ]
+}
