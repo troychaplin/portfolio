@@ -1,5 +1,7 @@
 import { Article } from "../../ui-kit/Article/Article";
 import experienceData from "../../data/experience.json";
+import { Columns } from "../../ui-kit/Columns/Columns";
+import { Column } from "../../ui-kit/Columns/Column";
 
 export const Experience = () => {
   return (
@@ -11,17 +13,24 @@ export const Experience = () => {
       </p>
       <p>Download Resumé</p>
 
-      {experienceData.experience.map((exp, index) => (
-        <div key={index} className="mt-4">
-          <h3>{exp.title}</h3>
-          <p>{exp.employer}</p>
-          <ul>
-            {exp.accomplishments.map((accomplishment, idx) => (
-              <li key={idx}>{accomplishment}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      <Columns cols="2" gap="5">
+        {experienceData.experience.map((exp, index) => (
+          <Column key={index}>
+            {exp.title && <h3>{exp.title}</h3>}
+            {exp.employer && <p>{exp.employer}</p>}
+            {exp.accomplishments && (
+              <ul>
+                {exp.accomplishments.map((accomplishment, idx) => (
+                  <li
+                    key={idx}
+                    dangerouslySetInnerHTML={{ __html: accomplishment }}
+                  ></li>
+                ))}
+              </ul>
+            )}
+          </Column>
+        ))}
+      </Columns>
     </Article>
   );
 };
